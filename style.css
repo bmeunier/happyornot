@@ -240,8 +240,6 @@ button{
 }
 
 
-
-
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
 	border-radius:0;
 }
@@ -277,6 +275,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 .bgc-black{
 	background-color:#000000;
+}
+
+
+.form-title strong {
+	color: #000;
 }
 
 /* Bloc image backgrounds */
