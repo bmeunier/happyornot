@@ -256,29 +256,6 @@ button{
 }
 
 
-
-
-
-/* ScrollToTop button */
-
-.scrollToTop{
-	width:40px;
-	height:40px;
-	position:fixed;
-	bottom:20px;
-	right:20px;
-	opacity: 0;
-	z-index: 500;
-	transition: all .3s ease-in-out;
-}
-.scrollToTop span{
-	margin-top: 6px;
-}
-.showScrollTop{
-	font-size: 14px;
-	opacity: 1;
-}
-
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -371,7 +348,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	.form-title{
-		font-size:48px;
+		font-size:32px;
 	}
 	.form-button{
 		padding-right:0px;
@@ -393,7 +370,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 767px){
 	.form-title{
-		font-size:48px;
+		font-size:32px;
 	}
 	.form-button{
 		padding-left:0px;
@@ -416,7 +393,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 575px){
 	.form-title{
-		font-size:36px;
+		font-size:24px;
 	}
 	.happy{
 		background-size:40px auto;
