@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    3KwVrzgiLLx2ZDUhZoalJNfO8LXBDOPh
+	    happyornot
         Built with Blocs
 -----------------------------------------------------------------------------------*/
  
@@ -232,18 +232,19 @@ button{
 	outline: none!important;
 }
 
-.btn-style-none,.btn-style-none:hover,.btn-style-none:active,.btn-style-none:focus{
-	background:none;
-	box-shadow: none;
-	padding:0;
-}
-.btn-xl{
-	padding: 16px 40px;
-	font-size: 28px;
+
+/* = Icons
+-------------------------------------------------------------- */
+.icon-xl{
+	font-size:100px!important;
 }
 
 
-
+/* = Text & Icon Styles
+-------------------------------------------------------------- */
+.sm-shadow{
+	text-shadow:0 1px 2px rgba(0,0,0,.3);
+}
 
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
@@ -300,27 +301,42 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .form-button{
 	overflow:hidden;
 	text-indent:-10000px;
+	display:block;
 	padding:50% 0% 50% 0%;
 }
 .happy{
-	background-image:url("img/SmileyA-1.png");
+	background-image:url("img/SmileyA.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 .meh{
-	background-image:url("img/SmileyB-1.png");
+	background-image:url("img/SmileyB.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 .duh{
-	background-image:url("img/SmileyC-1.png");
+	background-image:url("img/SmileyC.png");
 	background-repeat:no-repeat;
 	background-position:center center;
 }
 .sad{
-	background-image:url("img/SmileyD-1.png");
+	background-image:url("img/SmileyD.png");
 	background-repeat:no-repeat;
 	background-position:center center;
+}
+.happy:hover{
+	background-image:url("img/SmileyA.png");
+}
+.happyv2{
+	background-image:url("img/SmileyA.png");
+	background-size:auto auto;
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-clip:padding-box!important;
+	-webkit-background-clip:padding-box!important;
+}
+.button{
+	display:block;
 }
 
 /* = Colour
@@ -464,11 +480,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 	.sad{
 		background-size:40px auto;
-	}
-	
-	/* Mobile Row Margin Offsets */
-	.voffset-xs{
-		margin-top:30px;
 	}
 	
 }
