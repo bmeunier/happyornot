@@ -235,16 +235,11 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
-.icon-lg{
-	font-size:60px!important;
+.icon-xl{
+	font-size:100px!important;
 }
 
 
-/* = Text & Icon Styles
--------------------------------------------------------------- */
-.sm-shadow{
-	text-shadow:0 1px 2px rgba(0,0,0,.3);
-}
 
 
 .card-sq, .card-sq .card-header, .card-sq .card-footer{
