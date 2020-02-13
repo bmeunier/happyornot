@@ -2,7 +2,7 @@
 	    happyornot
         Built with Blocs
 -----------------------------------------------------------------------------------*/
- 
+
 body{
 	margin:0;
 	padding:0;
@@ -58,7 +58,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	padding:100px 50px;
 }
 
-/* = Full Screen Blocs 
+/* = Full Screen Blocs
 -------------------------------------------------------------- */
 
 .bloc-fill-screen{
@@ -88,7 +88,7 @@ a:hover{text-decoration: none; cursor:pointer;}
 	align-self: flex-end;
 }
 
-/* = Full Width Blocs 
+/* = Full Width Blocs
 -------------------------------------------------------------- */
 
 .full-width-bloc{
@@ -290,48 +290,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .form-title{
 	font-family:"IBMPlexSans-Bold";
-	font-size:96px;
-	line-height:132px;
-}
-.form-button{
-	overflow:hidden;
-	text-indent:-10000px;
-	display:block;
-	padding:50% 0% 50% 0%;
-}
-.happy{
-	background-image:url("img/SmileyA.png");
-	background-repeat:no-repeat;
-	background-position:center center;
-}
-.meh{
-	background-image:url("img/SmileyB.png");
-	background-repeat:no-repeat;
-	background-position:center center;
-}
-.duh{
-	background-image:url("img/SmileyC.png");
-	background-repeat:no-repeat;
-	background-position:center center;
-}
-.sad{
-	background-image:url("img/SmileyD.png");
-	background-repeat:no-repeat;
-	background-position:center center;
-}
-.happy:hover{
-	background-image:url("img/SmileyA.png");
-}
-.happyv2{
-	background-image:url("img/SmileyA.png");
-	background-size:auto auto;
-	background-position:center center;
-	background-repeat:no-repeat;
-	background-clip:padding-box!important;
-	-webkit-background-clip:padding-box!important;
-}
-.button{
-	display:block;
+	font-size:48px;
 }
 
 /* = Colour
@@ -348,17 +307,17 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 
 
-/* = Mobile adjustments 
+/* = Mobile adjustments
 -------------------------------------------------------------- */
 @media (max-width: 1024px)
 {
     .bloc{
-        padding-left: 20px; 
-        padding-right: 20px;  
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .bloc.full-width-bloc, .bloc-tile-2.full-width-bloc .container, .bloc-tile-3.full-width-bloc .container, .bloc-tile-4.full-width-bloc .container{
-        padding-left: 0; 
-        padding-right: 0;  
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 @media (max-width: 991px)
@@ -381,7 +340,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
         padding:0 10px;
     }
     .btn-dwn{
-       display:none; 
+       display:none;
     }
     .voffset{
         margin-top:5px;
@@ -412,8 +371,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 @media (max-width: 991px){
 	.form-title{
-		font-size:72px;
-		line-height:96px;
+		font-size:48px;
 	}
 	.form-button{
 		padding-right:0px;
@@ -430,13 +388,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.sad{
 		background-size:150px auto;
 	}
-	
+
 }
 
 @media (max-width: 767px){
 	.form-title{
 		font-size:48px;
-		line-height:54px;
 	}
 	.form-button{
 		padding-left:0px;
@@ -454,13 +411,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.sad{
 		background-size:100px auto;
 	}
-	
+
 }
 
 @media (max-width: 575px){
 	.form-title{
 		font-size:36px;
-		line-height:48px;
 	}
 	.happy{
 		background-size:40px auto;
@@ -476,6 +432,5 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	.sad{
 		background-size:40px auto;
 	}
-	
-}
 
+}
