@@ -12,13 +12,13 @@ $(document).ready(function() {
 			    appId: "1:530473455740:web:edcd03341042a4e05d79f9"
 			}
 		},
-		request: function() {
-			// make ajax request to store logs
+		storeMood: function(mood, time) {
+			// make write request to store logs on firebase
 			var $this = this
 
 			var postData = {
-			    mood: this.getMood(),
-			    time: this.getServerTime()
+			    mood: mood,
+			    time: time
 			};
 
 			// Get a key for a new Post.
@@ -29,22 +29,24 @@ $(document).ready(function() {
 
 			firebase.database().ref().update(updates, function(error) {
 				if (error) {
-					alert($this.setErrorMsg());
+					alert($this.getErrorMsg());
 				} else {
 					$this.redirect();
 				}
 			});
 
 		},
-		setErrorMsg: function() {
+		getErrorMsg: function() {
+			// alert message translation
 			return 'There seems to be a problem with your selection';
 		},
-		getMood: function() {
-			return 'smile';
+		getMood: function(el) {
+			// html data attr for moods
+			return $(el).data('mood');
 		},
 		getServerTime: function() {
-			// get current server time
-			return $.ajax({async: false}).getResponseHeader( 'Date' );
+			// get current date time
+			return moment().format('MMMM-Do-YYYY, h:mm a');
 		},
 		redirect: function() {
 			// redirect after logging user click
@@ -60,7 +62,7 @@ $(document).ready(function() {
 
 			$('.faces a').click(function(e) {
 				e.preventDefault();
-				$this.request();
+				$this.storeMood($this.getMood(this), $this.getServerTime());
 			});
 		}
 	}
