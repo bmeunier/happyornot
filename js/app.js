@@ -3,13 +3,14 @@ $(document).ready(function() {
 		firebaseConfig: function() {
 			// FIREBASE Auth setup
 			return {
-				apiKey: "AIzaSyDjJohPa3veIKVg_fd1ZaA3S_DgpLw_8GA",
-			    authDomain: "chat-20391.firebaseapp.com",
-			    databaseURL: "https://chat-20391.firebaseio.com",
-			    projectId: "chat-20391",
-			    storageBucket: "chat-20391.appspot.com",
-			    messagingSenderId: "530473455740",
-			    appId: "1:530473455740:web:edcd03341042a4e05d79f9"
+				apiKey: "AIzaSyCbXNjohqaeCzH2FOi9v0kIHTEkzBD89Uw",
+			    authDomain: "happyornot-5072c.firebaseapp.com",
+			    databaseURL: "https://happyornot-5072c.firebaseio.com",
+			    projectId: "happyornot-5072c",
+			    storageBucket: "happyornot-5072c.appspot.com",
+			    messagingSenderId: "854671586621",
+			    appId: "1:854671586621:web:d8260128f35da8c0bd8154",
+			    measurementId: "G-0NTYN7PQPS"
 			}
 		},
 		storeMood: function(mood, time) {
