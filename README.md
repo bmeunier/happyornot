@@ -11,11 +11,6 @@ The “press of a Smiley & follow-up question” feedback collecting prototype h
 
 _tbd_ (If you need help, don't hesitate to email Ikenna at carteraxwebsolution@gmail.com for help.
 
-
-## Usage
-
-
-
 ## Contributors
 [Ikenna Ojukwu](https://github.com/carterax) for your incredible dev work.
 
