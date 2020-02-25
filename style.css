@@ -258,14 +258,21 @@ button{
 -------------------------------------------------------------- */
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
-	font-family:"Helvetica";
+	font-family:"IBMPlexSans-Bold";
 }
 .container{
 	max-width:1140px;
 }
-.form-title{
-	font-family:"IBMPlexSans-Bold";
+.form-title {
 	font-size:48px;
+}
+
+.label-style, .btn {
+	font-size:26px;
+}
+
+.label-style strong, .btn strong {
+	font-size:32px; color: black;
 }
 
 /* = Colour
@@ -414,3 +421,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 
 }
+
+/*-----------------------------------------------------------------------------------
+	    FontAwesome Customisation
+-----------------------------------------------------------------------------------*/
