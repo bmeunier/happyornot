@@ -2,7 +2,14 @@
 
 The “press of a Smiley & follow-up question” feedback collecting prototype helps me, Benoît Meunier for La Maison Tricotée to  collect maximum feedback with its exceptional ease of use.
 
+# What's next?
+
+- Transition to me done in JQuery for better compability with old browser
+- Removing question with follow-up question
+
 ## Installation
+
+_tbd_ (If you need help, don't hesitate to email Ikenna at carteraxwebsolution@gmail.com for help.
 
 
 ## Usage
