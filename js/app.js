@@ -59,9 +59,12 @@ $(document).ready(function() {
 				// get mood data
 				$this.formData.mood = $(this).data('mood');
 
-				// enter next step
-				$(".section-mood").addClass("animated fadeOutLeft faster");
-				$(".section-why").addClass("animated fadeInRight faster");
+				// assign active mood class
+				$(".faces a").removeClass("active-mood");
+				$(this).addClass('active-mood');
+
+				// animate scroll to next step
+				$("html, body").animate({ scrollTop: $('#bloc-5').offset().top }, 500);
 				
 			});
 		},
