@@ -421,7 +421,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	}
 
 }
-
-/*-----------------------------------------------------------------------------------
-	    FontAwesome Customisation
------------------------------------------------------------------------------------*/
+.section-why {
+	min-height:100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top:20px;
+	padding-bottom:20px; }
