@@ -65,7 +65,7 @@ $(document).ready(function() {
 
 				// animate scroll to next step
 				$("html, body").animate({ scrollTop: $('#bloc-5').offset().top }, 500);
-				document.getElementById("undefined_14566").focus();
+				$('#undefined_14566').focus();
 				
 			});
 		},
